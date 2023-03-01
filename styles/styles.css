@@ -41,6 +41,7 @@ h1 {
   font-weight: 400;
 }
 .Group1 {
+  position: relative;
   width: 1150px;
   height: 500px;
   margin-top: 30px;
@@ -48,18 +49,19 @@ h1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.Text_Group1 {
+
+.Introduction {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   width: 530px;
   height: 81px;
-  padding-left: 40px;
-  padding-top: 379px;
   font-size: 20px;
   line-height: 27.32px;
   font-weight: 400;
   color: white;
 }
-
-.Group2 {
+.About {
   width: 1051px;
   height: 518px;
   margin-top: 65px;
@@ -73,7 +75,7 @@ h2 {
   color: #121212;
   font-weight: 400;
 }
-.Text_Group2 {
+.Text_About {
   height: 366px;
   width: 1051px;
   font-size: 45px;
@@ -84,7 +86,7 @@ h2 {
   letter-spacing: -0.03em;
 }
 
-.link-Group2 {
+.Button-services {
   display: block;
   width: 255px;
   height: 67px;
@@ -95,11 +97,12 @@ h2 {
   color: white;
   background-color: #ad1818;
   margin-top: 30px;
+  border-radius: 5px;
 }
 a:hover {
   color: black;
 }
-.Group3 {
+.Project {
   width: 1150px;
   height: 548px;
   margin-bottom: 90px;
@@ -113,7 +116,7 @@ h3 {
   font-weight: 400;
   margin-bottom: 30px;
 }
-.Text_Group3 {
+.Project-name {
   height: 41px;
   width: 601px;
   font-size: 30px;
@@ -133,12 +136,12 @@ h4 {
   margin-left: 127px;
   margin-bottom: 34px;
 }
-.Image-Group3 {
+.Image-Project {
   width: 1150px;
   height: 450px;
   margin-bottom: 15px;
 }
-.link-Group3 {
+.About-project {
   height: 41px;
   width: 542px;
   font-size: 20px;
@@ -155,13 +158,13 @@ h4 {
   color: red;
   background-color: none;
 }
-.link-Group3:hover {
+.About-project:hover {
   color: #121212;
 }
 
 .link-Group4 {
   display: block;
-  width: 100%;
+  width: 1150px;
   height: 153px;
   border: 1px solid #ad1818;
   border-radius: 5px;
@@ -178,13 +181,13 @@ a:hover {
   color: white;
   background-color: #ad1818;
 }
-.Group5 {
+.Service {
   width: 1150px;
   height: 326px;
   margin-left: 125px;
   margin-bottom: 60px;
 }
-.Text_Group5 {
+.Text_Service {
   height: 41px;
   width: 661px;
   font-size: 30px;
@@ -194,22 +197,24 @@ a:hover {
   color: #ffffff;
   letter-spacing: -0.03em;
 }
-.Image-Group5 {
+.Image-Service {
   height: 270px;
   width: 1150px;
 }
-.Group6 {
+.Forest-landscape {
+  position: absolute;
   width: 1400px;
   height: 717px;
   background-image: url("../recources/Rectangle\ 9.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-.Text_Group6 {
+.Text_Forest-landscape {
+  position: relative;
   width: 443px;
   height: 82px;
-  padding-left: 125px;
-  padding-top: 575px;
+  left: 125px;
+  top: 575px;
   font-size: 30px;
   line-height: 40.98px;
   font-weight: 400;

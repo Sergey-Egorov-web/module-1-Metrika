@@ -4,7 +4,6 @@ body {
 
 .container {
   width: 1150px;
-  margin: 0 auto;
 
   margin-left: 106px;
   margin-top: 213px;
@@ -40,7 +39,7 @@ h1 {
   color: #121212;
   font-weight: 400;
 }
-.Group1 {
+.Interior {
   position: relative;
   width: 1150px;
   height: 500px;
@@ -54,17 +53,18 @@ h1 {
   position: absolute;
   left: 40px;
   bottom: 40px;
-  width: 530px;
+  width: 430px;
   height: 81px;
   font-size: 20px;
   line-height: 27.32px;
   font-weight: 400;
   color: white;
+  letter-spacing: -0.03em;
 }
 .About {
   width: 1051px;
   height: 518px;
-  margin-top: 65px;
+  margin-top: 150px;
   margin-left: 19px;
 }
 h2 {
@@ -79,7 +79,7 @@ h2 {
   height: 366px;
   width: 1051px;
   font-size: 45px;
-  line-height: 61.47px;
+  line-height: 61px;
   font-weight: 400;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -91,8 +91,12 @@ h2 {
   width: 255px;
   height: 67px;
   border: 1px solid red;
+  box-sizing: border-box;
+  padding-top: 20px;
+
   text-align: center;
-  line-height: 67px;
+  line-height: 27px;
+  font-size: 20px;
   text-decoration: none;
   color: white;
   background-color: #ad1818;
@@ -162,7 +166,7 @@ h4 {
   color: #121212;
 }
 
-.link-Group4 {
+.Look-projects {
   display: block;
   width: 1150px;
   height: 153px;
@@ -229,12 +233,12 @@ a:hover {
   margin-left: 120px;
   margin-bottom: 12px;
 }
-.Group7 {
+.Information {
   width: 473px;
   height: 217px;
   margin-left: 124px;
 }
-.Text_Group7 {
+.Phone-number {
   width: 472px;
   height: 60px;
   font-size: 60px;
@@ -253,7 +257,7 @@ h5 {
   font-weight: 400;
   margin-bottom: 3px;
 }
-.Mail_Group7 {
+.Mail {
   width: 412px;
   height: 60px;
   font-size: 60px;

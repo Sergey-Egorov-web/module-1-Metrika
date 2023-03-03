@@ -2,37 +2,31 @@ body {
   font-family: "Manrope", sans-serif;
   width: 1400px;
   margin: 0 auto;
+  letter-spacing: -0.03em;
+  background-color: #ffffff;
 }
-
 .container {
   width: 1150px;
-
   margin-left: 125px;
   margin-top: 213px;
   margin-bottom: 150px;
 }
-
 .container2 {
   width: 1150px;
   height: 2122px;
-
   margin-left: 121px;
   margin-bottom: 150px;
 }
-
 .container3 {
   width: 1400px;
   height: 1844px;
   background-color: #121212;
-
-  margin-bottom: 0px;
 }
 .container4 {
   width: 1400px;
   height: 717px;
   margin-bottom: 150px;
 }
-
 h1 {
   width: 1000px;
   height: 120px;
@@ -46,11 +40,11 @@ h1 {
   width: 1150px;
   height: 500px;
   margin-top: 30px;
+  margin-bottom: 150px;
   background-image: url("../recources/Rectangle\ 1.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 .Introduction {
   position: absolute;
   left: 40px;
@@ -64,16 +58,15 @@ h1 {
   letter-spacing: -0.03em;
 }
 .About {
-  width: 1051px;
+  width: 1048px;
   height: 518px;
-  margin-top: 150px;
-  margin-left: 19px;
 }
 h2 {
   width: 71px;
   height: 25px;
   font-size: 18px;
   line-height: 25px;
+  margin-bottom: 30px;
   color: #121212;
   font-weight: 400;
 }
@@ -83,30 +76,26 @@ h2 {
   font-size: 45px;
   line-height: 61px;
   font-weight: 400;
-  margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 3px;
   letter-spacing: -0.03em;
 }
-
 .Button-services {
   display: block;
   width: 255px;
   height: 67px;
-  /* border: 1px solid red;  */
   box-sizing: border-box;
   padding-top: 20px;
   padding-bottom: 20px;
-
   text-align: center;
   line-height: 27px;
   font-size: 20px;
   text-decoration: none;
   color: white;
   background-color: #ad1818;
-  margin-top: 30px;
   border-radius: 5px;
 }
-a:hover {
+.Button-service:hover {
   color: black;
 }
 .Project {
@@ -129,6 +118,7 @@ h3 {
   font-size: 30px;
   line-height: 41px;
   font-weight: 400;
+  color: #121212;
   margin-bottom: 15px;
   letter-spacing: -0.03em;
 }
@@ -149,28 +139,22 @@ h4 {
   margin-bottom: 15px;
 }
 .About-project {
-  height: 41px;
-  width: 542px;
   font-size: 20px;
   line-height: 41px;
   font-weight: 400;
-  margin-bottom: 15px;
   letter-spacing: -0.03em;
-  /* display: contents; */
-  width: 0px;
-  height: 0px;
-  border: 0px;
+  width: 0;
+  height: 0;
+  border: 0;
   text-align: left;
   text-decoration: none;
   color: #ad1818;
-
   background-color: none;
 }
 .About-project:hover {
   color: #121212;
   background-color: #ffffff;
 }
-
 .Look-projects {
   display: block;
   width: 1150px;
@@ -185,8 +169,7 @@ h4 {
   background-color: white;
   text-decoration: none;
 }
-
-a:hover {
+.Look-projects:hover {
   color: white;
   background-color: #ad1818;
 }

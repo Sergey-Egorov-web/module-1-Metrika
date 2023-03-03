@@ -1,6 +1,7 @@
 body {
   font-family: "Manrope", sans-serif;
-  margin-left: 250px;
+  width: 1400px;
+  margin: 0 auto;
 }
 
 .container {

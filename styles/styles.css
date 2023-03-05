@@ -41,7 +41,7 @@ h1 {
   height: 500px;
   margin-top: 30px;
   margin-bottom: 150px;
-  background-image: url("../recources/Rectangle\ 1.png");
+  background-image: url("../recources/armchair.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -197,7 +197,7 @@ h4 {
   position: relative;
   width: 1400px;
   height: 717px;
-  background-image: url("../recources/Rectangle\ 9.png");
+  background-image: url("../recources/bed.png");
   background-size: contain;
   background-repeat: no-repeat;
 }

@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Manrope", sans-serif;
   width: 1400px;
@@ -5,19 +8,67 @@ body {
   letter-spacing: -0.03em;
   background-color: #ffffff;
 }
+
+.nav-container {
+  /* display: inline-block; */
+  margin: 0 auto;
+  width: 1151.35px;
+  margin-top: 32.82px;
+  height: 25px;
+  /* border: 1px solid red; */
+}
+
+.logo-link {
+  display: inline-block;
+  margin-right: 528px;
+}
+.logo {
+  display: block;
+  width: 126.89px;
+  height: 21.42px;
+}
+
+.nav {
+  width: 1152px;
+  height: 25px;
+  display: inline;
+  vertical-align: top;
+  /* margin-left: 310px; */
+}
+.nav-link {
+  height: 25px;
+  width: 90px;
+  margin-right: 60px;
+  text-decoration: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #121212;
+}
+.nav-link:nth-last-child(1) {
+  margin-right: 0px;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
 .container {
   width: 1150px;
   margin-left: 125px;
   margin-top: 213px;
   margin-bottom: 150px;
 }
-.container2 {
+.container-projects {
   width: 1150px;
   height: 2122px;
   margin-left: 121px;
   margin-bottom: 150px;
 }
-.container3 {
+.container-service {
   width: 1400px;
   height: 1844px;
   background-color: #121212;
@@ -198,7 +249,8 @@ h4 {
   width: 1400px;
   height: 717px;
   background-image: url("../recources/bed.png");
-  background-size: contain;
+  background-size: cover;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .Text_Forest-landscape {
@@ -221,11 +273,25 @@ h4 {
   margin-left: 120px;
   margin-bottom: 12px;
 }
-.Information {
+.container-contacts {
   width: 473px;
   height: 217px;
+  margin-top: 186px;
   margin-left: 124px;
 }
+
+.container-contacts:before {
+  content: "";
+  width: 24px;
+  height: 27px;
+  display: block;
+  margin-bottom: 13px;
+  background-image: url("../recources/ic_outline-phone-iphone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
 .Phone-number {
   width: 472px;
   height: 60px;
@@ -243,7 +309,7 @@ h5 {
   line-height: 24.59px;
   color: #121212;
   font-weight: 400;
-  margin-bottom: 3px;
+  margin-bottom: 32px;
 }
 .Mail {
   width: 412px;

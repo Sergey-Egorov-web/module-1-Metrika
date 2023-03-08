@@ -33,7 +33,6 @@ body {
   height: 25px;
   display: inline;
   vertical-align: top;
-  /* margin-left: 310px; */
 }
 .nav-link {
   height: 25px;
@@ -264,7 +263,7 @@ h4 {
   font-weight: 400;
   color: #ffffff;
 }
-.phone {
+/* .phone {
   width: 24px;
   height: 27px;
   background-image: url("../recources/ic_outline-phone-iphone.png");
@@ -272,35 +271,28 @@ h4 {
   background-repeat: no-repeat;
   margin-left: 120px;
   margin-bottom: 12px;
-}
+} */
 .container-contacts {
+  position: relative;
   width: 473px;
   height: 217px;
   margin-top: 186px;
   margin-left: 124px;
+  margin-bottom: 150px;
 }
 
 .container-contacts:before {
+  position: absolute;
   content: "";
   width: 24px;
   height: 27px;
   display: block;
-  margin-bottom: 13px;
+  top: -34px;
+  left: 1px;
   background-image: url("../recources/ic_outline-phone-iphone.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
-}
-
-.Phone-number {
-  width: 472px;
-  height: 60px;
-  font-size: 60px;
-  line-height: 60px;
-  font-weight: 400;
-  color: #121212;
-  letter-spacing: -0.03em;
-  margin-bottom: 30px;
 }
 h5 {
   width: 90px;
@@ -311,20 +303,85 @@ h5 {
   font-weight: 400;
   margin-bottom: 32px;
 }
-.Mail {
-  width: 412px;
+.Phone-number {
+  width: 472px;
   height: 60px;
   font-size: 60px;
   line-height: 60px;
+  font-weight: 400;
+  color: #121212;
+  letter-spacing: -0.03em;
+  margin-bottom: 30px;
+}
+.Phone-link {
+  font-size: 60px;
+  line-height: 60px;
+  height: 60px;
+  color: #121212;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+.Mail {
+  width: 412px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.Mail-link {
+  font-size: 60px;
+  line-height: 60px;
+  height: 60px;
   color: #121212;
   font-weight: 400;
   letter-spacing: -0.03em;
   opacity: 0.5;
-  margin-bottom: 10px;
 }
 .line {
+  margin-top: 10px;
   width: 406px;
   height: 0px;
   opacity: 0.5;
-  border: 2px solid #121212;
+  border: 1px solid #121212;
+}
+.Footer-container {
+  width: 1400px;
+  height: 229px;
+  background-color: #121212;
+}
+.footer-menu {
+  width: 500px;
+  height: 25px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.footer-link {
+  display: inline-block;
+  margin-right: 55px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-menu a:nth-last-child(1) {
+  margin-right: 0;
+}
+.footer-link:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.footer-metrika {
+  width: 389px;
+  height: 27px;
+  margin-top: 87px;
+  margin-left: 509px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  opacity: 0.5;
 }

@@ -3,24 +3,23 @@ html {
 }
 body {
   font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   width: 1400px;
   margin: 0 auto;
   letter-spacing: -0.03em;
   background-color: #ffffff;
 }
-
 .nav-container {
-  /* display: inline-block; */
   margin: 0 auto;
-  width: 1151.35px;
+  width: 1160px;
   margin-top: 32.82px;
   height: 25px;
-  /* border: 1px solid red; */
 }
 
 .logo-link {
   display: inline-block;
-  margin-right: 528px;
+  margin-right: 555px;
 }
 .logo {
   display: block;
@@ -39,9 +38,6 @@ body {
   width: 90px;
   margin-right: 60px;
   text-decoration: none;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.03em;
@@ -52,19 +48,19 @@ body {
   margin-right: 0px;
 }
 .nav-link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   opacity: 0.5;
 }
-.container {
+.container-introduction {
   width: 1150px;
   margin-left: 125px;
-  margin-top: 213px;
+  margin-top: 70px;
   margin-bottom: 150px;
 }
 .container-projects {
   width: 1150px;
   height: 2122px;
-  margin-left: 121px;
+  margin-left: 125px;
   margin-bottom: 150px;
 }
 .container-service {
@@ -72,16 +68,17 @@ body {
   height: 1844px;
   background-color: #121212;
 }
-.container4 {
+.container-example-project {
   width: 1400px;
   height: 717px;
   margin-bottom: 150px;
 }
 h1 {
-  width: 1000px;
+  width: 956px;
   height: 120px;
   font-size: 60px;
   line-height: 60px;
+  letter-spacing: -0.03em;
   color: #121212;
   font-weight: 400;
 }
@@ -161,6 +158,7 @@ h3 {
   color: #121212;
   font-weight: 400;
   margin-bottom: 30px;
+  letter-spacing: -0.03em;
 }
 .Project-name {
   height: 41px;
@@ -169,7 +167,7 @@ h3 {
   line-height: 41px;
   font-weight: 400;
   color: #121212;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   letter-spacing: -0.03em;
 }
 h4 {
@@ -181,7 +179,7 @@ h4 {
   font-weight: 400;
   padding-top: 151px;
   margin-left: 127px;
-  margin-bottom: 34px;
+  margin-bottom: 58px;
 }
 .Image-Project {
   width: 1150px;
@@ -192,10 +190,8 @@ h4 {
   font-size: 20px;
   line-height: 41px;
   font-weight: 400;
+  margin-left: 2px;
   letter-spacing: -0.03em;
-  width: 0;
-  height: 0;
-  border: 0;
   text-align: left;
   text-decoration: none;
   color: #ad1818;
@@ -215,6 +211,7 @@ h4 {
   position: absolute;
   font-size: 30px;
   line-height: 153px;
+  letter-spacing: -0.03em;
   color: #ad1818;
   background-color: white;
   text-decoration: none;
@@ -231,11 +228,11 @@ h4 {
 }
 .Text_Service {
   height: 41px;
-  width: 661px;
   font-size: 30px;
-  line-height: 40.98px;
+  line-height: 41px;
   font-weight: 400;
   margin-top: 15px;
+  margin-left: 3px;
   color: #ffffff;
   letter-spacing: -0.03em;
 }
@@ -257,21 +254,13 @@ h4 {
   width: 443px;
   height: 82px;
   left: 125px;
-  bottom: 75px;
+  bottom: 60px;
   font-size: 30px;
   line-height: 41px;
   font-weight: 400;
   color: #ffffff;
+  letter-spacing: -0.03em;
 }
-/* .phone {
-  width: 24px;
-  height: 27px;
-  background-image: url("../recources/ic_outline-phone-iphone.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left: 120px;
-  margin-bottom: 12px;
-} */
 .container-contacts {
   position: relative;
   width: 473px;
@@ -280,12 +269,11 @@ h4 {
   margin-left: 124px;
   margin-bottom: 150px;
 }
-
 .container-contacts:before {
   position: absolute;
   content: "";
-  width: 24px;
-  height: 27px;
+  width: 13px;
+  height: 22px;
   display: block;
   top: -34px;
   left: 1px;
@@ -310,7 +298,6 @@ h5 {
   line-height: 60px;
   font-weight: 400;
   color: #121212;
-  letter-spacing: -0.03em;
   margin-bottom: 30px;
 }
 .Phone-link {
@@ -357,9 +344,6 @@ h5 {
 .footer-link {
   display: inline-block;
   margin-right: 55px;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.03em;
@@ -370,14 +354,12 @@ h5 {
   margin-right: 0;
 }
 .footer-link:hover {
-  text-decoration: underline;
   opacity: 0.5;
 }
-
 .footer-metrika {
   width: 389px;
   height: 27px;
-  margin-top: 87px;
+  margin-top: 109px;
   margin-left: 509px;
   font-size: 20px;
   line-height: 27px;

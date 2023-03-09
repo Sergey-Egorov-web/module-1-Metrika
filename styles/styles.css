@@ -5,10 +5,13 @@ body {
   font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: 400;
-  width: 1400px;
+  /* width: 1400px; */
   margin: 0 auto;
   letter-spacing: -0.03em;
   background-color: #ffffff;
+}
+.nav-section {
+  width: 1400px;
 }
 .nav-container {
   margin: 0 auto;
@@ -64,12 +67,12 @@ body {
   margin-bottom: 150px;
 }
 .container-service {
-  width: 1400px;
+  /* width: 1400px; */
   height: 1844px;
   background-color: #121212;
 }
 .container-example-project {
-  width: 1400px;
+  /* width: 1400px; */
   height: 717px;
   margin-bottom: 150px;
 }
@@ -242,7 +245,7 @@ h4 {
 }
 .Forest-landscape {
   position: relative;
-  width: 1400px;
+  /* width: 1400px; */
   height: 717px;
   background-image: url("../recources/bed.png");
   background-size: cover;

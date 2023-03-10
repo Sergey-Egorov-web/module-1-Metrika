@@ -76,6 +76,7 @@ body {
 .container-service {
   /* width: 1400px; */
   width: 100%;
+  min-width: 1400px;
   height: 1844px;
   background-color: #121212;
 }
@@ -128,7 +129,7 @@ h2 {
 .contacts {
   margin-bottom: 32px;
 }
-.text_about {
+.text-about {
   width: 1051px;
   height: 366px;
   margin-bottom: 30px;
@@ -225,7 +226,7 @@ h2 {
   width: 1400px;
   margin: 0 auto;
 }
-.text_service {
+.text-service {
   height: 41px;
   margin-top: 15px;
   margin-left: 3px;
@@ -239,18 +240,25 @@ h2 {
   height: 270px;
 }
 .forest-landscape {
-  position: relative;
+  /* position: relative; */
   /* width: 1400px; */
+  min-width: 1400px;
   height: 717px;
   background-image: url("../recources/bed.png");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.text_forest-landscape {
-  position: absolute;
+.container-text-forest-landscape {
+  width: 1400px;
+  margin: 0 auto;
+}
+.text-forest-landscape {
+  /* position: absolute;
   left: 125px;
-  bottom: 60px;
+  bottom: 60px; */
+  padding-top: 575px;
+  margin-left: 125px;
   width: 443px;
   height: 82px;
   font-size: 30px;
@@ -258,14 +266,18 @@ h2 {
   color: #ffffff;
   letter-spacing: -0.03em;
 }
+.container-contacts-fullscreen {
+  width: 1400px;
+  margin: 0 auto;
+}
 .container-contacts {
   position: relative;
   width: 473px;
   height: 217px;
-  margin: 186px auto 150px 375px;
-  /* margin-top: 186px;
+  /* margin: 186px auto 150px 375px; */
+  margin-top: 186px;
   margin-bottom: 150px;
-  margin-left: 124px; */
+  margin-left: 124px;
 }
 .container-contacts:before {
   position: absolute;
@@ -318,6 +330,7 @@ h2 {
 .footer-container {
   width: 100%;
   /* width: 1400px; */
+  min-width: 1400px;
   height: 229px;
   margin: 0 auto;
   background-color: #121212;

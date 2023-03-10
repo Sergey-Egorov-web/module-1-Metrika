@@ -10,14 +10,19 @@ body {
   letter-spacing: -0.03em;
   background-color: #ffffff;
 }
+.fullscreen-mode {
+  width: 1400px;
+  margin: 0 auto;
+}
 .nav-section {
   width: 1400px;
+  margin-top: 33px;
 }
 .nav-container {
-  margin: 0 auto;
   width: 1160px;
-  margin-top: 32.82px;
   height: 25px;
+  margin-top: 32.82px;
+  margin: 0 auto;
 }
 
 .logo-link {
@@ -31,20 +36,20 @@ body {
 }
 
 .nav {
+  display: inline;
   width: 1152px;
   height: 25px;
-  display: inline;
   vertical-align: top;
 }
 .nav-link {
-  height: 25px;
   width: 90px;
+  height: 25px;
   margin-right: 60px;
-  text-decoration: none;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #121212;
 }
 .nav-link:nth-last-child(1) {
@@ -56,18 +61,21 @@ body {
 }
 .container-introduction {
   width: 1150px;
-  margin-left: 125px;
-  margin-top: 70px;
-  margin-bottom: 150px;
+  /* margin-top: 70px; */
+  margin: 70px auto 150px auto;
+  /* margin-bottom: 150px; */
+  /* margin-left: 125px; */
 }
 .container-projects {
   width: 1150px;
   height: 2122px;
-  margin-left: 125px;
-  margin-bottom: 150px;
+  margin: 0 auto 150px auto;
+  /* margin-bottom: 150px;
+  margin-left: 125px; */
 }
 .container-service {
   /* width: 1400px; */
+  width: 100%;
   height: 1844px;
   background-color: #121212;
 }
@@ -112,25 +120,29 @@ h1 {
 h2 {
   width: 71px;
   height: 25px;
+  margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
-  margin-bottom: 30px;
   color: #121212;
 }
+.contacts {
+  margin-bottom: 32px;
+}
 .text_about {
-  height: 366px;
   width: 1051px;
-  font-size: 45px;
-  line-height: 61px;
+  height: 366px;
   margin-bottom: 30px;
   margin-left: 3px;
+  font-size: 45px;
+  line-height: 61px;
   letter-spacing: -0.03em;
 }
 .button-services {
   display: block;
+  box-sizing: border-box;
+  border-radius: 5px;
   width: 255px;
   height: 67px;
-  box-sizing: border-box;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -139,7 +151,6 @@ h2 {
   text-decoration: none;
   color: white;
   background-color: #ad1818;
-  border-radius: 5px;
 }
 .button-service:hover {
   color: black;
@@ -149,35 +160,23 @@ h2 {
   height: 548px;
   margin-bottom: 90px;
 }
-h3 {
-  width: 79px;
-  height: 25px;
-  font-size: 18px;
-  line-height: 25px;
-  color: #121212;
-  margin-bottom: 30px;
-  letter-spacing: -0.03em;
-}
+
 .project-name {
-  height: 41px;
   width: 601px;
+  height: 41px;
+  margin-bottom: 5px;
   font-size: 30px;
   line-height: 41px;
   color: #121212;
-  margin-bottom: 5px;
   letter-spacing: -0.03em;
 }
-h4 {
-  width: 66px;
-  height: 25px;
-  font-size: 18px;
-  line-height: 25px;
-  color: #ffffff;
-  padding-top: 151px;
-  margin-left: 127px;
+.services {
   margin-bottom: 58px;
+  margin-left: 127px;
+  padding-top: 151px;
+  color: #ffffff;
 }
-.image-Project {
+.image-project {
   width: 1150px;
   height: 450px;
   margin-bottom: 15px;
@@ -197,13 +196,13 @@ h4 {
   background-color: #ffffff;
 }
 .look-projects {
+  position: absolute;
   display: block;
-  width: 1150px;
-  height: 153px;
   border: 1px solid #ad1818;
   border-radius: 5px;
+  width: 1150px;
+  height: 153px;
   text-align: center;
-  position: absolute;
   font-size: 30px;
   line-height: 153px;
   letter-spacing: -0.03em;
@@ -218,21 +217,26 @@ h4 {
 .service {
   width: 1150px;
   height: 326px;
-  margin-left: 125px;
   margin-bottom: 60px;
+  margin: 0 auto 60px auto;
+  /* margin-left: 125px; */
+}
+.service-fullscreen {
+  width: 1400px;
+  margin: 0 auto;
 }
 .text_service {
   height: 41px;
-  font-size: 30px;
-  line-height: 41px;
   margin-top: 15px;
   margin-left: 3px;
+  font-size: 30px;
+  line-height: 41px;
   color: #ffffff;
   letter-spacing: -0.03em;
 }
-.image-Service {
-  height: 270px;
+.image-service {
   width: 1150px;
+  height: 270px;
 }
 .forest-landscape {
   position: relative;
@@ -245,10 +249,10 @@ h4 {
 }
 .text_forest-landscape {
   position: absolute;
-  width: 443px;
-  height: 82px;
   left: 125px;
   bottom: 60px;
+  width: 443px;
+  height: 82px;
   font-size: 30px;
   line-height: 41px;
   color: #ffffff;
@@ -258,38 +262,31 @@ h4 {
   position: relative;
   width: 473px;
   height: 217px;
-  margin-top: 186px;
-  margin-left: 124px;
+  margin: 186px auto 150px 375px;
+  /* margin-top: 186px;
   margin-bottom: 150px;
+  margin-left: 124px; */
 }
 .container-contacts:before {
   position: absolute;
-  content: "";
-  width: 13px;
-  height: 22px;
   display: block;
-  top: -34px;
-  left: 1px;
+  content: "";
+  width: 24px;
+  height: 24px;
+  top: -35px;
+  left: -4px;
   background-image: url("../recources/ic_outline-phone-iphone.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
 }
-h5 {
-  width: 90px;
-  height: 25px;
-  font-size: 18px;
-  line-height: 24.59px;
-  color: #121212;
-  margin-bottom: 32px;
-}
 .phone-number {
   width: 472px;
   height: 60px;
+  margin-bottom: 30px;
   font-size: 60px;
   line-height: 60px;
   color: #121212;
-  margin-bottom: 30px;
 }
 .phone-link {
   font-size: 60px;
@@ -298,35 +295,35 @@ h5 {
   color: #121212;
   letter-spacing: -0.03em;
 }
-
 .mail {
   width: 412px;
   height: 60px;
   margin-bottom: 10px;
 }
 .mail-link {
+  height: 60px;
   font-size: 60px;
   line-height: 60px;
-  height: 60px;
   color: #121212;
   letter-spacing: -0.03em;
   opacity: 0.5;
 }
 .line {
-  margin-top: 10px;
   width: 406px;
   height: 0px;
+  margin-top: 10px;
   opacity: 0.5;
   border: 1px solid #121212;
 }
 .footer-container {
+  width: 100%;
   /* width: 1400px; */
   height: 229px;
-  background-color: #121212;
   margin: 0 auto;
+  background-color: #121212;
 }
 .footer-menu {
-  width: 500px;
+  width: 465px;
   height: 25px;
   margin: 0 auto;
   padding-top: 60px;

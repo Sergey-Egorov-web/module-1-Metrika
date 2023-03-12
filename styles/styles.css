@@ -56,8 +56,8 @@ body {
   margin-right: 0px;
 }
 .nav-link:hover {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  opacity: 0.5;
+  border-bottom: 1px solid rgba(255, 123, 210, 0.5);
+  /* opacity: 0.5; */
 }
 .container-introduction {
   width: 1150px;

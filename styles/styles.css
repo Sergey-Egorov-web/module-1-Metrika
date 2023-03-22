@@ -57,34 +57,27 @@ body {
 }
 .nav-link:hover {
   border-bottom: 1px solid rgba(255, 123, 210, 0.5);
-  /* opacity: 0.5; */
 }
 .container-introduction {
   width: 1150px;
-  /* margin-top: 70px; */
   margin: 70px auto 150px auto;
-  /* margin-bottom: 150px; */
-  /* margin-left: 125px; */
 }
 .container-projects {
   width: 1150px;
   height: 2122px;
   margin: 0 auto 150px auto;
-  /* margin-bottom: 150px;
-  margin-left: 125px; */
 }
 .container-service {
-  /* width: 1400px; */
   width: 100%;
   min-width: 1400px;
   height: 1844px;
   background-color: #121212;
 }
 .container-example-project {
-  /* width: 1400px; */
   height: 717px;
   margin-bottom: 150px;
 }
+
 h1 {
   width: 956px;
   height: 120px;
@@ -329,7 +322,6 @@ h2 {
 }
 .footer-container {
   width: 100%;
-  /* width: 1400px; */
   min-width: 1400px;
   height: 229px;
   margin: 0 auto;
@@ -366,4 +358,110 @@ h2 {
   letter-spacing: -0.03em;
   color: #ffffff;
   opacity: 0.5;
+}
+@media (max-width: 1199px) {
+  .container-introduction {
+    width: 100%;
+    margin-bottom: 120px;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  h1 {
+    width: 802px;
+    height: 120px;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+  }
+  .interior {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 120px;
+    background-image: url("../recources/armchair.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .introduction {
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+    width: 430px;
+  }
+  .about {
+    width: 100%;
+    padding-left: 17px;
+  }
+  /* h2 {
+    margin-left: 17px;
+  } */
+  .text-about {
+    width: 690px;
+    height: 336px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .container-projects {
+    width: 100%;
+    margin-bottom: 103px;
+    padding-left: 15px;
+    padding-right: 17px;
+  }
+  .project {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .project-name {
+    width: 452px;
+    height: 34px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .image-project {
+    width: 100%;
+    height: cover;
+    object-fit: scale-down;
+  }
+  .about-project {
+    font-size: 20px;
+    line-height: 41px;
+    margin-left: 2px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-decoration: none;
+    color: #ad1818;
+    background-color: none;
+  }
+
+  .look-projects {
+    width: 100%;
+    /* height: 153px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 153px;
+    letter-spacing: -0.03em;
+    color: #ad1818;
+    background-color: white;
+    text-decoration: none; */
+  }
+}
+
+@media (max-width: 767px) {
+  .container-introduction {
+    width: 100%;
+    margin-top: 61px;
+    margin-bottom: 80px;
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+  .container-projects {
+    width: 100%;
+    margin-bottom: 144px;
+    padding-left: 13px;
+    padding-right: 12px;
+  }
 }

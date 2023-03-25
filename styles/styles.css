@@ -64,7 +64,7 @@ body {
 }
 .container-projects {
   width: 1150px;
-  height: 2122px;
+  /* height: 2122px; */
   margin: 0 auto 150px auto;
 }
 .container-service {

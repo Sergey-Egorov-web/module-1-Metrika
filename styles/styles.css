@@ -69,8 +69,7 @@ body {
 }
 .container-service {
   width: 100%;
-  min-width: 1400px;
-  height: 1844px;
+  /* min-width: 1400px; */
   background-color: #121212;
 }
 .container-example-project {
@@ -164,12 +163,7 @@ h2 {
   color: #121212;
   letter-spacing: -0.03em;
 }
-.services {
-  margin-bottom: 58px;
-  margin-left: 127px;
-  padding-top: 151px;
-  color: #ffffff;
-}
+
 .image-project {
   width: 1150px;
   height: 450px;
@@ -208,19 +202,35 @@ h2 {
   color: white;
   background-color: #ad1818;
 }
-.service {
-  width: 1150px;
-  height: 326px;
-  margin-bottom: 60px;
-  margin: 0 auto 60px auto;
-  /* margin-left: 125px; */
-}
+
 .service-fullscreen {
-  width: 1400px;
+  width: 100%;
+  max-width: 1150px;
   margin: 0 auto;
+}
+h2.services {
+  margin-bottom: 30px;
+  margin-left: 127px;
+  padding-top: 151px;
+  color: #ffffff;
+}
+.flex-container-service {
+  display: flex;
+  width: 100%;
+  max-width: 1400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.service {
+  position: relative;
+  width: calc(50% - 5.5px);
+  /* height: 369px; */
+  margin-bottom: 60px;
 }
 .text-service {
   height: 41px;
+  width: 50%;
   margin-top: 15px;
   margin-left: 3px;
   font-size: 30px;
@@ -228,10 +238,52 @@ h2 {
   color: #ffffff;
   letter-spacing: -0.03em;
 }
-.image-service {
-  width: 1150px;
-  height: 270px;
+.price-service {
+  position: absolute;
+  top: 31px;
+  left: 30px;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  /* width: 163px; */
+  height: 40px;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ad1818;
 }
+
+.image-service {
+  width: 100%;
+  height: 389px;
+}
+.order-service {
+  /* position: absolute; */
+  display: block;
+  margin-top: 106px;
+  margin-bottom: 150px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  width: 1150px;
+  height: 153px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 153px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  background-color: #ad1818;
+  text-decoration: none;
+}
+.order-service:hover {
+  border: 1px solid #ffffff;
+  /* color: #ad1818;
+  background-color: #fff; */
+}
+
 .forest-landscape {
   /* position: relative; */
   /* width: 1400px; */

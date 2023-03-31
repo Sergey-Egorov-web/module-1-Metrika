@@ -92,4 +92,51 @@
     font-size: 22px;
     line-height: 100px;
   }
+
+  .container-service {
+    width: 100%;
+    min-width: 350px;
+    background-color: #121212;
+  }
+
+  .flex-container-service {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* flex-wrap: wrap;*/
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .service {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 60px auto;
+  }
+  .text-service {
+    height: 31px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .price-service {
+    top: 23px;
+    left: 24px;
+    padding-left: 24px;
+    padding-right: 23px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .order-service {
+    /* position: absolute; */
+    display: block;
+    margin: 60px auto 80px auto;
+    border: 1px solid #ad1818;
+    border-radius: 4px;
+    width: 90%;
+    height: 100px;
+    font-size: 22px;
+    line-height: 100px;
+  }
 }

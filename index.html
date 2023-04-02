@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial scale 1.0">
+    <meta name="viewport" content="width=device-width, initial scale 1.0" />
     <title>Метрика</title>
   </head>
   <link rel="stylesheet" href="styles/reset.css" />
@@ -53,23 +53,59 @@
     <div id="projects" class="container-projects">
       <h2>ПРОЕКТЫ</h2>
       <div class="project">
-        
-          <img class="image-project" src="recources/Sofa.png" alt="ЖК Правобережный" />
-        
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="recources/sofa-phone.png"
+          />
+          <source
+            media="(max-width: 1150px)"
+            srcset="recources/sofa-tablet.png"
+          />
+          <img
+            class="image-project"
+            src="recources/Sofa.png"
+            alt="ЖК Правобережный"
+          />
+        </picture>
         <p class="project-name">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
         <a href="#part1" class="about-project">Подробнее →</a>
       </div>
       <div class="project">
-        
-          <img class="image-project" src="recources/norway.png" alt="ЖК НОРВЕЖСКИЙ ПАРК" />
-        <!-- </div> -->
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="recources/norway-phone.png"
+          />
+          <source
+            media="(max-width: 1150px)"
+            srcset="recources/norway-tablet.png"
+          />
+          <img
+            class="image-project"
+            src="recources/norway.png"
+            alt="ЖК НОРВЕЖСКИЙ ПАРК"
+          />
+        </picture>
         <p class="project-name">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
         <a href="#part1" class="about-project">Подробнее →</a>
       </div>
       <div class="project">
-        
-          <img class="image-project" src="recources/longtable.png" alt="ЖК СОСНОВСКИЕ ОЗЕРА" />
-        <!-- </div> -->
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="recources/longtable-phone.png"
+          />
+          <source
+            media="(max-width: 1150px)"
+            srcset="recources/longtable-tablet.png"
+          />
+          <img
+            class="image-project"
+            src="recources/longtable.png"
+            alt="ЖК СОСНОВСКИЕ ОЗЕРА"
+          />
+        </picture>
         <p class="project-name">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
 
         <a href="#part1" class="about-project">Подробнее →</a>
@@ -77,61 +113,100 @@
       <a href="#part1" class="look-projects">Cмотреть все проекты</a>
     </div>
     <div id="services" class="container-service">
-      
       <div class="service-fullscreen">
         <h2 class="services-title">УСЛУГИ</h2>
         <div class="flex-container-service">
-      <div class="service">
-        
-          <img class="image-service" src="recources/decision.png" alt="Планировочное решение" />
+          <div class="service">
+            <img
+              class="image-service"
+              src="recources/decision.png"
+              alt="Планировочное решение"
+            />
 
-        <p class="text-service">Планировочное решение</p>
-        <p class="price-service"> от 2500₽/м²</p>
+            <p class="text-service">Планировочное решение</p>
+            <p class="price-service">от 2500₽/м²</p>
+          </div>
+          <div class="service">
+            <img
+              class="image-service"
+              src="recources/color.png"
+              alt="Дизайн-проект"
+            />
+            <p class="text-service">Дизайн-проект</p>
+            <p class="price-service">от 3000₽/м²</p>
+          </div>
+          <div class="service">
+            <img
+              class="image-service"
+              src="recources/plan.png"
+              alt="Авторский надзор"
+            />
+            <p class="text-service">Авторский надзор</p>
+            <p class="price-service">от 30 000₽ в месяц</p>
+          </div>
+          <div class="service">
+            <img
+              class="image-service"
+              src="recources/warehouse.png"
+              alt="Комплектация — 5%"
+            />
+            <p class="text-service">Комплектация</p>
+            <p class="price-service">5% от стоимости</p>
+          </div>
+          <a href="#part1" class="order-service">Заказать услугу</a>
+        </div>
       </div>
-      <div class="service">
-          <img class="image-service" src="recources/color.png" alt="Дизайн-проект" />
-           <p class="text-service">Дизайн-проект</p>
-           <p class="price-service"> от 3000₽/м²</p>
-      </div>
-      <div class="service">
-        <img class="image-service" src="recources/plan.png" alt="Авторский надзор" />
-        <p class="text-service">Авторский надзор</p>
-        <p class="price-service"> от 30 000₽ в месяц</p>
-      </div>
-      <div class="service">
-        <img class="image-service" src="recources/warehouse.png" alt="Комплектация — 5%" />
-        <p class="text-service">Комплектация</p>
-        <p class="price-service"> 5% от стоимости</p>
-      </div>
-      <a href="#part1" class="order-service">Заказать услугу</a>
-    </div>
-    </div>
     </div>
     <div id="comments" class="container-comments">
-      
       <div class="comments-fullscreen">
         <h2 class="comments-title">ОТЗЫВЫ</h2>
-      <div class="flex-container-comments">
-        <div class="comment">
-        <h3 class="name-comment">Ксения, проект 65 кв.м.</h3>
-          <p class="text-comment"> Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и даже больше! <br>
-            <br> Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!
+        <div class="flex-container-comments">
+          <div class="comment">
+            <h3 class="name-comment">Ксения, проект 65 кв.м.</h3>
+            <p class="text-comment">
+              Хочу искренне поблагодарить Вас за работу, проделанную на высоком
+              уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за
+              Ваше умение правильно слышать пожелания своих клиентов и выполнять
+              работу, которая превосходит все ожидания! Мы даже не надеялись,
+              что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы
+              хотим и даже больше! <br />
+              <br />
+              Вам удалось это просто превосходно! Нам лишь осталось воплотить
+              красоту, которую Вы нам создали в жизнь и поделиться с Вами
+              результатом!
             </p>
-        </div>
-        <div class="comment">
-          <h3 class="name-comment">Регина, проект 89 кв.м.</h3>
-            <p class="text-comment"> Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера!<br><br>  
-              Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!
-              </p>
+          </div>
+          <div class="comment">
+            <h3 class="name-comment">Регина, проект 89 кв.м.</h3>
+            <p class="text-comment">
+              Спасибо большое за такой классный проект! Все стильно, круто,
+              продумано! Очень приятно было с вами работать! Спасибо, что
+              терпели наши «хочу это, хочу то» в поисках идеального для нас
+              ремонта. Здорово, что мы нашли такого основательного,
+              ответственного и внимательного к деталям дизайнера!<br /><br />
+              Хочется скорее реализовать проект и наслаждаться современной,
+              функциональной и красивой квартирой! Будем рекомендовать Вас всем
+              друзьям и знакомым!
+            </p>
           </div>
           <div class="comment comment_long">
             <h3 class="name-comment">Яна, проект 120 кв.м.</h3>
-              <p class="text-comment"> Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более подходящим.<br><br>
-                В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое дело - ремонт!
-                </p>
-            </div>
+            <p class="text-comment">
+              Хотелось бы сказать большое спасибо за проделанную работу! В
+              задачу Марины входила разработка дизайн-проекта в минимальные
+              сроки, и мне, конечно, не хотелось при этом потерять качество
+              выполнения работы. Но волнения были напрасны: все вопросы решались
+              оперативно, всегда предлагалось несколько вариантов решения, а
+              также предоставлялись комментарии, какой способ решения будет
+              более подходящим.<br /><br />
+              В итоге проект был сдан в оговоренный срок, и мне просто не
+              терпится приступить к его реализации! Проект получился очень
+              стильным и современным! Буду рекомендовать Вас тем, кому еще
+              предстоит это непростое дело - ремонт!
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
     </div>
 
     <!-- <div class="container-example-project">
@@ -166,6 +241,6 @@
       </div>
       <p class="footer-metrika">студия дизайна интерьера Метрика — 2023</p>
     </footer> -->
-  </div>
+    <!-- </div> -->
   </body>
 </html>

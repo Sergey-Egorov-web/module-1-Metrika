@@ -247,8 +247,6 @@ h2.services-title {
   padding-right: 20px;
   box-sizing: border-box;
   border-radius: 5px;
-  /* width: 163px; */
-  height: 40px;
   font-size: 22px;
   line-height: 40px;
   letter-spacing: -0.03em;
@@ -269,7 +267,6 @@ h2.services-title {
   border: 1px solid #ad1818;
   border-radius: 5px;
   width: 1150px;
-  height: 153px;
   text-align: center;
   font-size: 30px;
   line-height: 153px;

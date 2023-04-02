@@ -1,6 +1,7 @@
 @media (max-width: 767px) {
   .container-introduction {
     width: 100%;
+    min-width: 350px;
     margin-top: 108px;
     margin-bottom: 80px;
     padding-left: 13px;
@@ -8,6 +9,7 @@
   }
   .container-projects {
     width: 100%;
+    min-width: 350px;
     margin-bottom: 144px;
     padding-left: 13px;
     padding-right: 12px;
@@ -68,15 +70,14 @@
     margin-bottom: 49px;
   }
   .project-name {
-    width: 326px;
-    height: 25px;
+    width: auto;
     margin-bottom: 11px;
     font-size: 18px;
     line-height: 25px;
   }
   .image-project {
     width: 100%;
-    height: 250px;
+    /* height: 250px; */
     object-fit: cover;
   }
   .about-project {
@@ -102,6 +103,10 @@
     width: 90%;
     margin: 0 auto;
   }
+  h2.services-title {
+    padding-top: 80px;
+    margin-left: 3px;
+  }
   .flex-container-service {
     display: flex;
     width: 100%;
@@ -124,29 +129,22 @@
     line-height: 25px;
   }
   .price-service {
-    top: 23px;
-    left: 24px;
+    top: 24px;
+    left: 23px;
     padding-left: 24px;
     padding-right: 23px;
-    height: 30px;
     font-size: 14px;
     line-height: 30px;
   }
   .image-service {
     width: 100%;
-    height: 240px;
-    /* data-proportion-h=2; */
-    /* height: calc(350 * 24 / 35); */
-    /* height: 315px; */
+    aspect-ratio: 350/240;
+    height: auto;
   }
   .order-service {
-    /* position: absolute; */
-    display: block;
-    margin: 60px auto 80px auto;
-    border: 1px solid #ad1818;
+    margin: 0 auto 80px auto;
     border-radius: 4px;
-    width: 90%;
-    height: 100px;
+    width: 98%;
     font-size: 22px;
     line-height: 100px;
   }

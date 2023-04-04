@@ -101,7 +101,7 @@
     height: 315px;
   }
   .order-service {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     width: 100%;
     font-size: 30px;
     line-height: 153px;
@@ -118,9 +118,6 @@
     padding-top: 117px;
     padding-left: 17px;
   }
-  .flex-container-comments {
-    width: 100%;
-  }
   h3.name-comment {
     margin-bottom: 25px;
     font-size: 35px;
@@ -131,10 +128,6 @@
     font-size: 20px;
     line-height: 27px;
     margin-bottom: 80px;
-  }
-
-  .comment_long {
-    width: 70%;
   }
   .text-comment {
     font-size: 20px;

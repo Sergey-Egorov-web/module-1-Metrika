@@ -296,16 +296,18 @@ h3.name-comment {
   font-size: 45px;
   line-height: 61px;
   letter-spacing: -0.03em;
-
   color: #000000;
 }
 .comment {
   width: calc(50% - 25.5px);
   margin-bottom: 50px;
 }
-.comment_long {
-  width: 70%;
+.comment:last-child:nth-child(2n + 1) {
+  width: 75%;
 }
+/* .comment_long {
+  width: 70%;
+} */
 .text-comment {
   font-size: 22px;
   line-height: 30px;

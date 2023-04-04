@@ -21,9 +21,8 @@
     line-height: 32px;
   }
   .interior {
-    position: relative;
     width: 100%;
-    height: 350px;
+    height: 304px;
     margin-top: 25px;
     margin-bottom: 80px;
     background-image: url("../recources/armchair.png");
@@ -38,9 +37,7 @@
     font-size: 16px;
     line-height: 22px;
   }
-  .about {
-    width: 100%;
-  }
+
   h2 {
     margin-bottom: 20px;
     font-size: 14px;
@@ -54,19 +51,15 @@
   }
 
   .button-services {
-    display: block;
-    box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 4px;
     width: 194px;
     height: 51px;
     padding-top: 14.5px;
     padding-bottom: 14.5px;
-    text-align: center;
     font-size: 16px;
     line-height: 22px;
   }
   .project {
-    width: 100%;
     margin-bottom: 49px;
   }
   .project-name {
@@ -76,9 +69,7 @@
     line-height: 25px;
   }
   .image-project {
-    width: 100%;
-    /* height: 250px; */
-    object-fit: cover;
+    margin-bottom: 20px;
   }
   .about-project {
     font-size: 16px;
@@ -87,7 +78,6 @@
   }
 
   .look-projects {
-    width: 100%;
     height: 100px;
     margin-top: 60px;
     font-size: 22px;
@@ -95,13 +85,12 @@
   }
 
   .container-service {
-    width: 100%;
     min-width: 350px;
-    background-color: #121212;
   }
   .service-fullscreen {
-    width: 90%;
-    margin: 0 auto;
+    padding-left: 21px;
+    padding-right: 15px;
+    padding-bottom: 80px;
   }
   h2.services-title {
     padding-top: 80px;
@@ -111,20 +100,15 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    /* flex-wrap: wrap;*/
     justify-content: center;
     margin: 0 auto;
   }
   .service {
-    position: relative;
     width: 100%;
-
     max-width: 749px;
     margin: 0 auto 60px auto;
   }
   .text-service {
-    height: 31px;
-    width: 100%;
     font-size: 18px;
     line-height: 25px;
   }
@@ -138,13 +122,13 @@
   }
   .image-service {
     width: 100%;
-    aspect-ratio: 350/240;
+    object-fit: contain;
     height: auto;
   }
   .order-service {
-    margin: 0 auto 80px auto;
+    margin: 0 auto;
     border-radius: 4px;
-    width: 98%;
+    width: 100%;
     font-size: 22px;
     line-height: 100px;
   }
@@ -152,11 +136,10 @@
     min-width: 350px;
     padding-bottom: 0px;
   }
-  /* .comments-fullscreen {
-    width: 100%;
-    max-width: 1150px;
-    margin: 0 auto;
-  } */
+  .comments-fullscreen {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
   h2.comments-title {
     padding-top: 80px;
     padding-left: 13px;
@@ -172,11 +155,11 @@
     line-height: 34px;
   }
   .comment {
-    width: calc(100% - 26px);
+    width: 100%;
     margin-bottom: 80px;
   }
   .comment_long {
-    width: calc(100% - 26px);
+    width: 100%;
   }
   .text-comment {
     font-size: 16px;

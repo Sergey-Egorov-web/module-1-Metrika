@@ -9,18 +9,12 @@
 
   h1 {
     width: 802px;
-    height: 120px;
     font-size: 50px;
-    line-height: 60px;
-    letter-spacing: -0.03em;
-    color: #121212;
   }
   .interior {
-    position: relative;
     width: 100%;
     height: 400px;
     margin-bottom: 120px;
-    background-image: url("../recources/armchair.png");
     background-size: cover;
   }
   .introduction {
@@ -31,12 +25,8 @@
   .about {
     width: 100%;
   }
-  /* h2 {
-      margin-left: 17px;
-    } */
   .text-about {
     width: 690px;
-    /* height: 336px; */
     margin-left: 0px;
     font-size: 35px;
     line-height: 48px;
@@ -62,19 +52,12 @@
   .image-project {
     width: 100%;
     height: auto;
-    aspect-ratio: 928/450;
-    /* height: cover;*/
-    /* object-fit: cover; */
+    object-fit: cover;
   }
   .about-project {
     font-size: 20px;
     line-height: 41px;
     margin-left: 2px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    text-decoration: none;
-    color: #ad1818;
-    background-color: none;
   }
 
   .look-projects {
@@ -83,36 +66,27 @@
   }
 
   .container-service {
-    width: 100%;
     min-width: 768px;
-    background-color: #121212;
   }
-  /* .service-fullscreen {
-    width: 100%;
-    margin: 0 auto;
-  } */
+  .service-fullscreen {
+    padding-left: 27px;
+    padding-right: 23px;
+    padding-bottom: 120px;
+  }
   h2.services-title {
     margin-left: 31px;
   }
   .flex-container-service {
-    display: flex;
-    width: 95%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
   }
   .service {
-    position: relative;
     width: calc(50% - 5px);
-    /* height: 369px; */
     margin-bottom: 60px;
   }
   .text-service {
-    height: 41px;
     width: 100%;
     font-size: 30px;
     line-height: 41px;
-    color: #ffffff;
   }
   .price-service {
     top: 31px;
@@ -124,31 +98,28 @@
   }
 
   .image-service {
-    width: 100%;
     height: 315px;
   }
   .order-service {
-    margin: 80px auto 120px auto;
+    margin: 0 auto 0 auto;
     width: 100%;
     font-size: 30px;
     line-height: 153px;
   }
   .container-comments {
     min-width: 768px;
-    background-color: #f5f5f5;
     padding-bottom: 120px;
   }
-  /* .comments-fullscreen {
-    width: 100%;
-    max-width: 1150px;
-    margin: 0 auto;
-  } */
+  .comments-fullscreen {
+    padding-left: 16px;
+    padding-right: 15px;
+  }
   h2.comments-title {
     padding-top: 117px;
     padding-left: 17px;
   }
   .flex-container-comments {
-    width: 95%;
+    width: 100%;
   }
   h3.name-comment {
     margin-bottom: 25px;

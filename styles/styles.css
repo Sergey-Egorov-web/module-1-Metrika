@@ -64,12 +64,10 @@ body {
 }
 .container-projects {
   width: 1150px;
-  /* height: 2122px; */
   margin: 0 auto 150px auto;
 }
 .container-service {
   width: 100%;
-  /* min-width: 1400px; */
   background-color: #121212;
 }
 .container-example-project {
@@ -108,7 +106,6 @@ h1 {
 }
 .about {
   width: 1048px;
-  /* height: 518px; */
 }
 h2 {
   width: 71px;
@@ -123,7 +120,6 @@ h2 {
 }
 .text-about {
   width: 1051px;
-  /* height: 366px; */
   margin-bottom: 30px;
   margin-left: 3px;
   font-size: 45px;
@@ -135,7 +131,6 @@ h2 {
   box-sizing: border-box;
   border-radius: 5px;
   width: 255px;
-  height: 67px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -145,12 +140,11 @@ h2 {
   color: white;
   background-color: #ad1818;
 }
-.button-service:hover {
+.button-services:hover {
   color: black;
 }
 .project {
   width: 1150px;
-  /* height: 548px; */
   margin-bottom: 90px;
 }
 
@@ -184,7 +178,6 @@ h2 {
   background-color: #ffffff;
 }
 .look-projects {
-  /* position: absolute; */
   display: block;
   border: 1px solid #ad1818;
   border-radius: 5px;
@@ -207,6 +200,7 @@ h2 {
   width: 100%;
   max-width: 1150px;
   margin: 0 auto;
+  padding-bottom: 150px;
 }
 
 h2.services-title {
@@ -221,7 +215,7 @@ h2.services-title {
   max-width: 1400px;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 auto 21px;
 }
 .service {
   position: relative;
@@ -229,7 +223,6 @@ h2.services-title {
   margin-bottom: 85px;
 }
 .text-service {
-  height: 41px;
   width: 50%;
   margin-top: 15px;
   margin-left: 3px;
@@ -260,10 +253,7 @@ h2.services-title {
   height: 389px;
 }
 .order-service {
-  /* position: absolute; */
   display: block;
-  margin-top: 21px;
-  margin-bottom: 150px;
   border: 1px solid #ad1818;
   border-radius: 5px;
   width: 1150px;
@@ -277,8 +267,6 @@ h2.services-title {
 }
 .order-service:hover {
   border: 1px solid #ffffff;
-  /* color: #ad1818;
-  background-color: #fff; */
 }
 .container-comments {
   width: 100%;

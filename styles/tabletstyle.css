@@ -85,6 +85,7 @@
   }
   .text-service {
     width: 100%;
+    margin-top: 15px;
     font-size: 30px;
     line-height: 41px;
   }
@@ -116,7 +117,6 @@
   }
   h2.comments-title {
     padding-top: 117px;
-    padding-left: 17px;
   }
   h3.name-comment {
     margin-bottom: 25px;

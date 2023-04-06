@@ -108,8 +108,7 @@ h1 {
   width: 1048px;
 }
 h2 {
-  width: 71px;
-  height: 25px;
+  /* width: 71px; */
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
@@ -204,7 +203,6 @@ h2 {
 }
 
 h2.services-title {
-  padding-bottom: 30px;
   margin-left: 2px;
   padding-top: 151px;
   color: #ffffff;
@@ -224,7 +222,7 @@ h2.services-title {
 }
 .text-service {
   width: 50%;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-left: 3px;
   font-size: 30px;
   line-height: 41px;
@@ -271,7 +269,6 @@ h2.services-title {
 .container-comments {
   width: 100%;
   min-width: 1150px;
-  background-color: #f5f5f5;
   padding-bottom: 157px;
 }
 .comments-fullscreen {
@@ -281,7 +278,6 @@ h2.services-title {
 }
 h2.comments-title {
   padding-top: 150px;
-  margin-bottom: 30px;
 }
 .flex-container-comments {
   display: flex;
@@ -305,9 +301,7 @@ h3.name-comment {
 .comment:last-child:nth-child(2n + 1) {
   width: 75%;
 }
-/* .comment_long {
-  width: 70%;
-} */
+
 .text-comment {
   font-size: 22px;
   line-height: 30px;
@@ -316,8 +310,6 @@ h3.name-comment {
 }
 
 .forest-landscape {
-  /* position: relative; */
-  /* width: 1400px; */
   min-width: 1400px;
   height: 717px;
   background-image: url("../recources/bed.png");
@@ -330,9 +322,6 @@ h3.name-comment {
   margin: 0 auto;
 }
 .text-forest-landscape {
-  /* position: absolute;
-  left: 125px;
-  bottom: 60px; */
   padding-top: 575px;
   margin-left: 125px;
   width: 443px;
@@ -350,7 +339,6 @@ h3.name-comment {
   position: relative;
   width: 473px;
   height: 217px;
-  /* margin: 186px auto 150px 375px; */
   margin-top: 186px;
   margin-bottom: 150px;
   margin-left: 124px;
@@ -435,7 +423,6 @@ h3.name-comment {
   width: 389px;
   height: 27px;
   margin: 109px auto;
-  /* margin-left: 509px; */
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.03em;

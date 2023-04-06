@@ -108,6 +108,7 @@
     margin: 0 auto 60px auto;
   }
   .text-service {
+    margin-top: 10px;
     font-size: 18px;
     line-height: 25px;
   }
@@ -141,7 +142,6 @@
   }
   h2.comments-title {
     padding-top: 80px;
-    padding-left: 13px;
     margin-bottom: 22px;
   }
   .flex-container-comments {

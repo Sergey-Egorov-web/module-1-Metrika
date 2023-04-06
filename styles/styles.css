@@ -89,7 +89,7 @@ h1 {
   height: 500px;
   margin-top: 30px;
   margin-bottom: 150px;
-  background-image: url("../recources/armchair.png");
+  background-image: url("../resources/armchair.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -312,7 +312,7 @@ h3.name-comment {
 .forest-landscape {
   min-width: 1400px;
   height: 717px;
-  background-image: url("../recources/bed.png");
+  background-image: url("../resources/bed.png");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -351,7 +351,7 @@ h3.name-comment {
   height: 24px;
   top: -35px;
   left: -4px;
-  background-image: url("../recources/ic_outline-phone-iphone.png");
+  background-image: url("../resources/ic_outline-phone-iphone.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;

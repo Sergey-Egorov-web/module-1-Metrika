@@ -1,4 +1,4 @@
-@media (max-width: 1149px) {
+@media (max-width: 1180px) {
   .container-introduction {
     width: 100%;
     margin-top: 128px;
@@ -74,7 +74,7 @@
     padding-bottom: 120px;
   }
   h2.services-title {
-    margin-left: 31px;
+    margin-left: 4px;
   }
   .flex-container-service {
     margin: 0 auto 20px auto;
@@ -86,8 +86,8 @@
   .text-service {
     width: 100%;
     margin-top: 15px;
-    font-size: 30px;
-    line-height: 41px;
+    font-size: 25px;
+    line-height: 34px;
   }
   .price-service {
     top: 31px;

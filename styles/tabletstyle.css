@@ -109,7 +109,7 @@
   }
   .container-comments {
     min-width: 768px;
-    padding-bottom: 120px;
+    margin-bottom: 120px;
   }
   .comments-fullscreen {
     padding-left: 16px;
@@ -132,5 +132,34 @@
   .text-comment {
     font-size: 20px;
     line-height: 37px;
+  }
+  .container-text-gallery {
+    position: absolute;
+    top: 80px;
+    /* left: 50px; */
+  }
+  .text-gallery-wrapper {
+    padding-left: 50px;
+    width: 100%;
+  }
+  .gallery-title {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .gallery-controls {
+    width: 75px;
+    margin-top: 240px;
+  }
+  .gallery-text {
+    bottom: 80px;
+    width: 377px;
+    height: 68px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .image-gallery {
+    width: 100%;
+    height: 536px;
+    object-fit: cover;
   }
 }

@@ -135,7 +135,7 @@
   }
   .container-comments {
     min-width: 350px;
-    padding-bottom: 0px;
+    margin-bottom: 80px;
   }
   .comments-fullscreen {
     padding-left: 13px;
@@ -165,9 +165,90 @@
     font-size: 16px;
     line-height: 22px;
   }
-}
-@media (max-width: 500px) {
-  .interior {
-    background-image: url("../resources/armchair-phone.png");
+
+  .container-text-gallery {
+    top: 61px;
+  }
+  .text-gallery-wrapper {
+    padding-left: 12px;
+    width: 100%;
+  }
+  .gallery-title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .gallery-controls {
+    display: flex;
+    width: 100%;
+    margin-top: 191px;
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+  }
+  .gallery-text {
+    bottom: 60px;
+    width: auto;
+    height: 52px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .image-gallery {
+    width: 100%;
+    height: 536px;
+    object-fit: cover;
+  }
+
+  .container-contacts-fullscreen {
+    padding-left: 11px;
+  }
+  .contacts {
+    margin-bottom: 58px;
+  }
+  .container-contacts {
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    row-gap: 58px;
+    margin-bottom: 80px;
+    padding-left: 2px;
+  }
+  .phone-number {
+    width: 100%;
+  }
+  .phone-link {
+    font-size: 35px;
+    line-height: 46px;
+  }
+  .phone-number:before {
+    width: 24px;
+    height: 24px;
+    top: -23px;
+    left: -1px;
+  }
+  .mail {
+    width: 100%;
+  }
+  .mail-link {
+    font-size: 35px;
+    line-height: 46px;
+    opacity: 1;
+  }
+  .mail:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 20px;
+    height: 15px;
+    top: -23px;
+    left: 1px;
+  }
+  .line {
+    width: 0;
+    height: 0;
+  }
+
+  @media (max-width: 500px) {
+    .interior {
+      background-image: url("../resources/armchair-phone.png");
+    }
   }
 }

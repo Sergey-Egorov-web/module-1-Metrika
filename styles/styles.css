@@ -70,11 +70,6 @@ body {
   width: 100%;
   background-color: #121212;
 }
-.container-example-project {
-  height: 717px;
-  margin-bottom: 150px;
-}
-
 h1 {
   width: 956px;
   height: 120px;
@@ -108,14 +103,10 @@ h1 {
   width: 1048px;
 }
 h2 {
-  /* width: 71px; */
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
   color: #121212;
-}
-.contacts {
-  margin-bottom: 32px;
 }
 .text-about {
   width: 1051px;
@@ -312,9 +303,9 @@ h3.name-comment {
 
 .container-gallery {
   width: 100%;
+  height: 717px;
   position: relative;
-  /* min-width: 1400px; */
-  /* margin: 0 auto; */
+  margin-bottom: 150px;
 }
 /* .gallery {
   position: relative;
@@ -405,75 +396,51 @@ h3.name-comment {
   height: 717px;
   object-fit: cover;
 }
-.forest-landscape {
-  min-width: 1400px;
-  height: 717px;
-  background-image: url("../resources/bed.png");
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-.container-text-forest-landscape {
-  width: 1400px;
-  margin: 0 auto;
-}
-.text-forest-landscape {
-  padding-top: 575px;
-  margin-left: 125px;
-  width: 443px;
-  height: 82px;
-  font-size: 30px;
-  line-height: 41px;
-  color: #ffffff;
-  letter-spacing: -0.03em;
-}
 .container-contacts-fullscreen {
-  width: 1400px;
+  width: 1150px;
   margin: 0 auto;
 }
+.contacts {
+  margin-bottom: 65px;
+}
+
 .container-contacts {
   position: relative;
-  width: 473px;
-  height: 217px;
-  margin-top: 186px;
+  display: flex;
+  column-gap: 105px;
+  flex-wrap: wrap;
   margin-bottom: 150px;
-  margin-left: 124px;
 }
-.container-contacts:before {
+.phone-number {
+  padding-top: 10px;
+  width: 472px;
+  height: 60px;
+}
+.phone-link {
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  letter-spacing: -0.03em;
+}
+.phone-number:before {
   position: absolute;
   display: block;
   content: "";
   width: 24px;
   height: 24px;
-  top: -35px;
-  left: -4px;
+  top: -27px;
+  left: -1px;
   background-image: url("../resources/ic_outline-phone-iphone.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
 }
-.phone-number {
-  width: 472px;
-  height: 60px;
-  margin-bottom: 30px;
-  font-size: 60px;
-  line-height: 60px;
-  color: #121212;
-}
-.phone-link {
-  font-size: 60px;
-  line-height: 60px;
-  height: 60px;
-  color: #121212;
-  letter-spacing: -0.03em;
-}
 .mail {
+  position: relative;
   width: 412px;
   height: 60px;
-  margin-bottom: 10px;
 }
 .mail-link {
-  height: 60px;
   font-size: 60px;
   line-height: 60px;
   color: #121212;
@@ -486,6 +453,18 @@ h3.name-comment {
   margin-top: 10px;
   opacity: 0.5;
   border: 1px solid #121212;
+}
+.mail:before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  top: -19px;
+  left: 2px;
+  background-image: url("../resources/icon-mail-black.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 .footer-container {
   width: 100%;

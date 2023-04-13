@@ -246,6 +246,24 @@
     height: 0;
   }
 
+  .footer-container {
+    height: 131px;
+  }
+  .footer-menu {
+    column-gap: 30px;
+    padding-top: 30px;
+  }
+  .footer-link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer-metrika {
+    width: 253px;
+    margin: 41px auto;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
   @media (max-width: 500px) {
     .interior {
       background-image: url("../resources/armchair-phone.png");

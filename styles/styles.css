@@ -349,9 +349,6 @@ h3.name-comment {
   letter-spacing: -0.03em;
   color: #ffffff;
 }
-/* .gallery-controls {
-   background-color: #ffffff; 
-} */
 .gallery-control-prev {
   height: 33px;
   width: 19px;
@@ -468,20 +465,21 @@ h3.name-comment {
 }
 .footer-container {
   width: 100%;
-  min-width: 1400px;
   height: 229px;
   margin: 0 auto;
   background-color: #121212;
 }
 .footer-menu {
-  width: 465px;
-  height: 25px;
+  display: flex;
+  width: auto;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 55px;
   margin: 0 auto;
   padding-top: 60px;
 }
 .footer-link {
-  display: inline-block;
-  margin-right: 55px;
+  /* display: inline-block; */
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.03em;
@@ -496,8 +494,7 @@ h3.name-comment {
 }
 .footer-metrika {
   width: 389px;
-  height: 27px;
-  margin: 109px auto;
+  margin: 87px auto;
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.03em;

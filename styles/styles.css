@@ -353,7 +353,7 @@ h3.name-comment {
   height: 33px;
   width: 19px;
   border: none;
-  background: url(/resources/arrow-left.png);
+  background: url("../resources/arrow-left.png");
   opacity: 0.5;
   cursor: pointer;
 }
@@ -361,7 +361,7 @@ h3.name-comment {
   height: 33px;
   width: 19px;
   border: none;
-  background: url(/resources/arrow-right.png);
+  background: url("../resources/arrow-right.png");
   opacity: 0.5;
   cursor: pointer;
 }

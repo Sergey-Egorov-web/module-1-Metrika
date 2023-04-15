@@ -135,11 +135,10 @@
   }
   .container-gallery {
     height: 536px;
-    margin-bottom: 120px;
   }
-  .container-text-gallery {
-    top: 80px;
-  }
+  /* .container-text-gallery {
+    /* top: 80px; 
+  } */
   .text-gallery-wrapper {
     padding-left: 50px;
     width: 100%;
@@ -150,7 +149,7 @@
   }
   .gallery-controls {
     width: 75px;
-    margin-top: 240px;
+    bottom: 155px;
   }
   .gallery-text {
     bottom: 80px;
@@ -166,6 +165,7 @@
   }
   .container-contacts-fullscreen {
     width: 100%;
+    margin-top: 120px;
     padding-left: 15px;
   }
   .container-contacts {

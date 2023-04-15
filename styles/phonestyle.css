@@ -165,35 +165,37 @@
     font-size: 16px;
     line-height: 22px;
   }
-
-  .container-text-gallery {
-    top: 61px;
+  .container-gallery {
+    height: 375px;
   }
+  /* .container-text-gallery {
+    top: 61px;
+  } */
   .text-gallery-wrapper {
     padding-left: 12px;
-    width: 100%;
+    padding-right: 12px;
   }
+
   .gallery-title {
     font-size: 14px;
     line-height: 19px;
   }
   .gallery-controls {
-    display: flex;
     width: 100%;
-    margin-top: 191px;
-    padding-left: 13.5px;
-    padding-right: 13.5px;
+    bottom: 191px;
+    /* padding-left: 13.5px;
+    padding-right: 13.5px; */
   }
   .gallery-text {
     bottom: 60px;
-    width: auto;
+    width: 287px;
     height: 52px;
     font-size: 19px;
     line-height: 26px;
   }
   .image-gallery {
     width: 100%;
-    height: 536px;
+    height: 375px;
     object-fit: cover;
   }
 
